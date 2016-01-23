@@ -1,0 +1,47 @@
+@media screen and (min-width: 480px){
+
+  /********************************
+GENERAL
+*********************************/
+body {
+   font-size: 2.5em;
+}
+
+/*  h1 {
+    font-size: 1.75em;
+  }
+
+   h3 {
+    font-size: 0.725em;
+  }*/
+
+  .btn {
+    font-size: 1.75em;
+  }
+
+@media screen and (min-width: 660px) {
+
+  /********************************
+HEADER
+*********************************/
+
+  nav  {
+    background: none;
+    float: right;
+    font-size: 1.125em;
+    text-align: right;
+    width: 45%;
+  }
+
+  #logo {
+    float: left;
+    margin-left: 5%;
+    text-align:left;
+    width: 45%;
+  }
+
+
+
+}
+
+

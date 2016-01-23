@@ -1,0 +1,14 @@
+body {
+  background-color: #e57373;
+  color: white;
+  padding: 10px;
+}
+
+#main {
+  background-color: white;
+  color: black;
+}
+
+h2 {
+  color: #ffcdd2;
+}
