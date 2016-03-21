@@ -9,3 +9,5 @@ Area links.
 links to local government agencies
 
 The goal of the site is to spread information about the neighborhood to current residents and potential residents.
+
+* Languages : HTML, CSS, Bootstrap
