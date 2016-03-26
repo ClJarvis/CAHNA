@@ -1,5 +1,5 @@
 body {
-  background-color: #73ABE5;
+  background-color: #CCC49F;
   color: white;
   padding: 10px;
 }
@@ -18,3 +18,10 @@ h2 {
 p {
   text-indent: 20px;
 }
+
+/*div {
+  border-color : red;
+  border-width: 3px;
+  border-style: solid;
+}
+*/

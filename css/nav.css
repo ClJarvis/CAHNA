@@ -1,15 +1,15 @@
 .navbar-default, .navbar-fixed-top, .navbar-fixed-top ul li a {
   background-color: white;
-  color: #8C9EFF;
+  color: #400000;
   width: 100%;
   font-size: .75em;
 }
 
 .navbar-default, .navbar-fixed-top ul li a:active, a:hover {
   font-size: .75em;
-  border-color: #8C9EFF;
+  border-color: #400000;
 }
 
 .navbar-brand{
-  font-size: .95em;
+  font-size: .75em;
 }
