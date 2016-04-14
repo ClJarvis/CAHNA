@@ -13,3 +13,13 @@
 .navbar-brand{
   font-size: .75em;
 }
+
+footer {
+  text-align: center;
+  background-color: white;
+  color: #400000;
+  width: 100%;
+  font-size: .80em;
+  border-color: #400000;
+
+}
