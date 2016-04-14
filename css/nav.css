@@ -5,15 +5,31 @@
   font-size: .75em;
 }
 
+
 .navbar-default, .navbar-fixed-top ul li a:active, a:hover {
   font-size: .75em;
   border-color: #400000;
+
 }
 
 .navbar-brand{
   font-size: .75em;
 }
 
+
+/* ////.navbar-default, .navbar-fixed-bottom, .navbar-fixed-bottom ul li a,{
+  background-color: white;
+  color: #400000;
+  width: 100%;
+  font-size: .75em;
+}
+ #bottom {
+  background-color: red;
+  color: #400000;
+  width: 100%;
+  font-size: .75em;
+}
+//////////////////////// */
 footer {
   text-align: center;
   background-color: white;
