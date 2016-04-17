@@ -2,13 +2,14 @@
   background-color: white;
   color: #400000;
   width: 100%;
-  font-size: .75em;
+  font-size: 20px;
 }
 
 
 .navbar-default, .navbar-fixed-top ul li a:active, a:hover {
   font-size: .75em;
   border-color: #400000;
+   background-color: white;
 
 }
 
@@ -16,7 +17,12 @@
   font-size: .75em;
 }
 
-
+.dropdown{
+  background-color: blue;
+}
+.header{
+  background-color: green;
+}
 /* ////.navbar-default, .navbar-fixed-bottom, .navbar-fixed-bottom ul li a,{
   background-color: white;
   color: #400000;
