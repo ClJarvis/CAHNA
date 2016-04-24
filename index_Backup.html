@@ -1,11 +1,8 @@
-
-
 <!doctype html>
 
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
   <link rel="stylesheet" type="text/css" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
   <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -23,10 +20,9 @@
 
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
-  <!-- Local CSS -->
-  <link rel="stylesheet" type="text/css" href="../css/main.css">
-  <link rel="stylesheet" type="text/css" href="../css/responsive.css">
-  <link rel="stylesheet" type="text/css" href="../css/nav.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/responsive.css">
+  <link rel="stylesheet" type="text/css" href="css/nav.css">
 
   <title>Caldwell Abbay Hall Neighborhood Association</title>
 </head>
@@ -34,27 +30,31 @@
 <body>
 
 <div class="container-fluid">
-<header>
-
+<div class="dropdown">
+    <a href="#" data-toggle="dropdown" class="dropdown-toggle">Dropdown <b class="caret"></b></a>
+    <ul class="dropdown-menu">
+        <li><a href="#">Action</a></li>
+        <li><a href="#">Another action</a></li>
+    </ul>
+</div>
   <div class="row">
-        <div class="container">
-    <div class='col-md-12' id="left_nav">
+    <div class='col-md-1'></div>
+    <div class='col-md-10' >
     <nav class="navbar navbar-default navbar-fixed-top ">
+      <div class="container">
 
-
-      <p class="navbar-brand">
-        <img src = "../images/CAHNA_logo_abbrev_color.jpg" width=300px, height = 300px id='logo'></p>
-              <p class="navbar-brand">Caldwell-Abbay Hall</p>
-       <ul class="nav navbar-nav navbar-center">
+      <p class="navbar-brand">Caldwell-Abbay Hall
+        <img src = "images/lego_dna.jpg"></p>
+       <ul class="nav navbar-nav navbar-right">
             <li><a href="https://twitter.com/"> About CAHNA <span class="sr-only">(current)</span></a></li>
-            <li><a href="calendar.html">Calendar</a></li>
+            <li><a href="#skills">Calendar</a></li>
             <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Community <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="https://twitter.com/">Blog</a></li>
             <li><a href="https://twitter.com/">Contact Page</a></li>
             <li><a href="https://twitter.com/">Facebook</a></li>
-            <li role="separator" class="divider"></li>
+            <!--li role="separator" class="divider"></li -->
             <li><a href="#">Nextdoor</a></li>
             <li role="separator" class="divider"></li>
           </ul>
@@ -67,11 +67,8 @@
 
     </nav>
     </div>
+    <div class='col-md-1'></div>
   </div>
-
-
-</header>
-
 
 
 
@@ -110,14 +107,8 @@
 
 
     <div id="welcome">
-     We have a good neighborhood and we want to make it better. You can help by joining our association.
-
-      Our Membership dues are $10 per family.
-
-      Please pay at our meetings or mail to:
-      Caldwell Abbay Hall Neighborhood Association
-      c/o Kelly Weymout
-      309 Gaywood Dr.
+      <p>Welcome to Caldwell-Abbay Hall Neighborhood Association! We enjoy quiet residential streets, but we can hear an occasional monkey or flamingo from the zoo to our north. We celebrate the diversity of our neighbors: some of us have just bought our first home, others have lived here for 50 years; we are black and white, Kurdish and Hispanic. We are musicians, students, accountants, teachers, medical professionals, and more. Most of us like to garden a bit and we'll give you tips on what grows well here as you walk or drive by. We love to walk our dogs, jog and ride bikes on our safe streets. We are a mile from the interstate, 7 miles from Vandy, and less than 10 miles from downtown.</p>
+      <p>The CAHNA is working hard to help preserve what we love about living here and to help make improvements that will benefit all of us. Attending the quarterly meetings gives you an opportunity to get to know some of your neighbors better, learn something new, and get involved in making our neighborhood better. We are well attended by our local council and state representatives who provide us with updates on state and local government changes. In 2010 we helped restock the clothes closet at Norman Binkley Elementary School. We look forward to continuing our support of this neighborhood school.<p>
 
       <p>Neighborhood Association
 
@@ -203,9 +194,7 @@
     </div>
    </div
   </div -->
-<!-- Bower components -->
-<script src='../bower_components/angular/angular.js'></script>
-<script type="text/javascript"></script>
+
 </body>
 
 </html>
