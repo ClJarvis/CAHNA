@@ -1,28 +1,28 @@
 .navbar-default, .navbar-fixed-top, .navbar-fixed-top ul li a {
-  background-color: white;
-  color: #000000;
+
+  color: #EF642C;
   width: 100%;
   font-size: 20px;
 }
 
 
-.navbar-default, .navbar-fixed-top ul li a:active, a:hover {
+.navbar-default, .navbar-fixed-top, ul li a:active, a:hover {
   font-size: .75em;
-  border-color: #000000;
-  background-color: white;
-  color: #000000;
+  border-color: #EF642C;
+  background-color: #EF642C;
+  color: #EF642C;
 }
 
 .navbar-brand{
   font-size: 1.95em;
+  color: #EF642C;
 }
 
-.dropdown{
-  background-color: blue;
+.navbar-default {
+  color: #EF642C;
 }
-.left_nav{
-  background-color: green;
-}
+
+
 /* ////.navbar-default, .navbar-fixed-bottom, .navbar-fixed-bottom ul li a,{
   background-color: white;
   color: #400000;
@@ -39,9 +39,12 @@
 footer {
   text-align: center;
   background-color: white;
-  color: #400000;
+  color: #EF642C;
   width: 100%;
   font-size: .80em;
-  border-color: #400000;
+  border-color: #EF642C;
+  border-style: dashed;
+  border-width: 2px;
+  margin-bottom: 15px;
 
 }
