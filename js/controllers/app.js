@@ -1,10 +1,9 @@
-var app = angular.module ('CAHNAApp', ['ngRoute', 'CAHNA.controllers']);
+var app = angular.module ('CAHNAApp', ['ngRoute']);
 
+app.config(['$routeProvider',(function($routeProvider) {
+  $routeProvider
 
-app.config(['$routeProvider',(function ($routeProvider) {
-  $routeProvider.
-
-  when('/calendar', {
+  .when('/calendar', {
     templateUrl: '/calendar.html',
     controller: 'calendarCtrl'
   }).
