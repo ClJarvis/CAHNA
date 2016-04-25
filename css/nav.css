@@ -1,28 +1,40 @@
-.navbar-default, .navbar-fixed-top, .navbar-fixed-top ul li a {
-
+.navbar-custom, .navbar-fixed-top, .navbar-fixed-top ul li a {
+ background-color: #400000;
   color: #EF642C;
   width: 100%;
   font-size: 20px;
 }
 
 
-.navbar-default, .navbar-fixed-top, ul li a:active, a:hover {
+
+.navbar-custom, .navbar-fixed-top, .active, ul li a:active, a:hover {
   font-size: .75em;
   border-color: #EF642C;
-  background-color: #EF642C;
+  background-color: white;
   color: #EF642C;
 }
 
 .navbar-brand{
-  font-size: 1.95em;
+  font-size: 1.75em;
   color: #EF642C;
 }
 
-.navbar-default {
+.navbar-custom {
   color: #EF642C;
 }
+/*.active li{
+  background-color: white;
+  color: #EF642C;
+}
+*/
+.navbar-custom {
+    color: #FFFFFF;
+    background-color: #400000;
+}
 
-
+.navbar-custom .dropdown-menu a{
+  background-color: white;
+}
 /* ////.navbar-default, .navbar-fixed-bottom, .navbar-fixed-bottom ul li a,{
   background-color: white;
   color: #400000;
@@ -42,8 +54,8 @@ footer {
   color: #EF642C;
   width: 100%;
   font-size: .80em;
-  border-color: #EF642C;
-  border-style: dashed;
+  border-color: #400000;
+  border-style: solid;
   border-width: 2px;
   margin-bottom: 15px;
 

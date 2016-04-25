@@ -1,6 +1,6 @@
 body {
-  background-color: black;
-  color: #EF642C;
+  background-color: #CCC49F; /* rgba(64, 0, 0, 0.78); #400000; */
+  color: #400000;
   padding: 10px;
 }
 
@@ -8,10 +8,12 @@ body {
   background-color: white;
   color: black;
   margin-top: 50px;
+  border-style: solid;
+  border-color: #400000;
 }
 
 h2 {
-  color: #EF642C; /*#337AB7; */
+  color: #400000;  /*#EF642C */
   text-align: center;;
 }
 
@@ -25,21 +27,34 @@ p {
   border-style: solid;
 }
 */
-.outer {
-  padding: 5px;
-  background-color: red;
+a, a:active, a:hover{
+  color: #EF642C;
+  background-color: white;
 
 }
 
 #logo{
   border-width: 2px;
   border-style: solid;
-  border-color: #EF642C;
+  border-color: #400000;
 }
 
 div {
-  border-style: solid;
+ /* border-style: solid;
   border-color: red;
-  border-width: 3px;
+  border-width: 3px; */
+}
 
+.img_box {
+  margin-top: 50px;
+  padding: 10px;
+  background-color: white;
+
+}
+
+.quote, .sidebar {
+  font-style: italic;
+  font-size: 15px;
+  margin-top: 50px;
+  color: #400000;
 }
