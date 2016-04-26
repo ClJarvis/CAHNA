@@ -54,6 +54,11 @@
   color: #400000;
 }
 
+.img_body {
+  background-color: transparent;
+  padding: 0;
+
+}
 
 footer {
   text-align: center;
@@ -67,3 +72,5 @@ footer {
   margin-bottom: 15px;
 
 }
+
+
