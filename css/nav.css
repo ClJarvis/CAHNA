@@ -48,6 +48,13 @@
   font-size: .75em;
 }
 //////////////////////// */
+.sidebar a{
+  text-decoration: underline;
+  background-color: transparent;
+  color: #400000;
+}
+
+
 footer {
   text-align: center;
   background-color: white;
