@@ -7,7 +7,7 @@ body {
 #main, #civic {
   background-color: white;
   color: black;
-  margin-top: 50px;
+  margin-top: 40px;
   border-style: solid;
   border-color: #400000;
 }
@@ -45,7 +45,6 @@ margin-right: auto;
 a, a:active, a:hover{
   color: #EF642C;
   background-color: white;
-
 }
 
 #logo{
