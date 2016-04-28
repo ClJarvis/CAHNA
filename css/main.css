@@ -21,9 +21,14 @@ body {
   font-size: 18px;
 }
 
-h2 {
+h2, h4 {
   color: #400000;  /*#EF642C */
   text-align: center;;
+}
+
+h3 {
+  color: #400000;
+  text-align: left;
 }
 
 p {
@@ -63,13 +68,16 @@ div {
   margin-top: 50px;
   padding: 10px;
   background-color: white;
-
 }
 
 .img_body {
   background-color: transparent;
   padding: 0;
+}
 
+.social_icon {
+  padding: 10px;
+  background-color: white;
 }
 
 .quote, .sidebar {
