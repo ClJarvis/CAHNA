@@ -32,23 +32,11 @@
     background-color: #400000;
 }
 
-.navbar-custom .dropdown-menu a{
+.navbar-custom .dropdown-menu a {
   background-color: white;
 }
-/* ////.navbar-default, .navbar-fixed-bottom, .navbar-fixed-bottom ul li a,{
-  background-color: white;
-  color: #400000;
-  width: 100%;
-  font-size: .75em;
-}
- #bottom {
-  background-color: red;
-  color: #400000;
-  width: 100%;
-  font-size: .75em;
-}
-//////////////////////// */
-.sidebar a{
+
+.sidebar a {
   text-decoration: underline;
   background-color: transparent;
   color: #400000;
@@ -73,4 +61,7 @@ footer {
 
 }
 
+footer a:visited {
+  color: #400000;
+}
 

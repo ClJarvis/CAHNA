@@ -50,6 +50,12 @@ margin-right: auto;
 a, a:active, a:hover{
   color: #EF642C;
   background-color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #400000;
+  text-decoration: underline;
 }
 
 #logo{
