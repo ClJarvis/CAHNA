@@ -4,12 +4,18 @@ body {
   padding: 10px;
 }
 
-#main, #civic {
+#main, #civic, #solicitation {
   background-color: white;
   color: black;
   margin-top: 40px;
   border-style: solid;
   border-color: #400000;
+  font-size: 18px;
+  padding-bottom: 8px;
+}
+
+#welcome {
+  font-size: 20px;
 }
 
 .watch {
@@ -19,6 +25,7 @@ body {
   border-style: solid;
   border-color: #400000;
   font-size: 18px;
+  padding-bottom: 4px;
 }
 
 h2, h4 {
@@ -74,6 +81,7 @@ div {
   margin-top: 50px;
   padding: 10px;
   background-color: white;
+  width: 90%;
 }
 
 .img_body {

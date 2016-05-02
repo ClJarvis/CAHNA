@@ -1,11 +1,13 @@
-@media screen and (min-width: 480px){
+@media screen and (min-width: 411px){
 
   /********************************
 GENERAL
 *********************************/
-body {
-   font-size: 2.5em;
+body, {
+   font-size: 16px;
+
 }
+
 
 /*  h1 {
     font-size: 1.75em;
@@ -15,13 +17,13 @@ body {
     font-size: 0.725em;
   }*/
 
-  .btn {
-    font-size: 1.75em;
-  }
 
 @media screen and (min-width: 660px) {
 
-
+.img_box {
+  height: 200px;
+  width: 300px;
+}
 
 }
 /*
@@ -34,10 +36,16 @@ body {
  }
 */
 
-@media (min-width: 768px) {/* and (max-width: 1000px) */
-   .navbar .navbar-custom .navbar-fixed-top  {
+@media (min-width: 768px) and (max-width: 1000px) {
+   .navbar .navbar-custom .navbar-fixed-top {
        background-color: red;
    }
+
+.img_box {
+  height: 200px;
+  width: 300px;
+}
+
     }
 /*
 @media (max-width: 1200px) {
