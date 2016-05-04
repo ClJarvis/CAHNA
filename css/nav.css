@@ -53,7 +53,7 @@ footer {
   background-color: white;
   color: #EF642C;
   width: 100%;
-  font-size: .80em;
+  font-size: 18px; /*.80em; */
   border-color: #400000;
   border-style: solid;
   border-width: 2px;
