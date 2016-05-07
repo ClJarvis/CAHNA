@@ -18,7 +18,7 @@ body {
   font-size: 20px;
 }
 
-.watch {
+.watch, .eventBox {
   background-color: white;
   color: black;
   margin-top: 40px;
