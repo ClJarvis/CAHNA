@@ -19,12 +19,11 @@ thead, th, tr, td {
   color: #400000;
   padding: 10px;
   position: fixed;
-  font-family: Arial, Helvetica, sans-serif;
+
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-
   z-index: 100;
   opacity:0;
   -webkit-transition: opacity 400ms ease-in;
