@@ -120,7 +120,7 @@ a:visited {
   color: #400000;
 }
 
-.sidebar2 {
+.blurb {
   font-style: italic;
   font-weight: bolder;
   font-size: 18px;
@@ -129,15 +129,6 @@ a:visited {
   background-color: transparent;
 }
 
-
-.sidebar2 a, a:active, a:hover{
-  font-style: italic;
-  font-weight: bolder;
-  font-size: 18px;
-  margin-top: 15px;
-  color: #EF642C;
-  background-color: transparent;
-}
 
 
 blockquote {
