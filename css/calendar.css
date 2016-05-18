@@ -15,6 +15,13 @@ thead, th, tr, td {
   font-weight: bold;
 }
 
+.Recycle {
+  text-decoration: line-through;
+  font-weight: bold;
+  border-radius: 30%;
+}
+
+
 .eventBox{
   background-color: transparent;
   color: #400000;
