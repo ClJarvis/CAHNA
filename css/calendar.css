@@ -12,6 +12,7 @@ thead, th, tr, td {
 .calendar a {
   background-color: transparent;
   text-decoration: underline;
+  font-weight: bold;
 }
 
 .eventBox{
