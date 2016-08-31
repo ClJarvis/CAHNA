@@ -82,3 +82,7 @@ thead {
 }
 
 .close:hover { background: #400000; }
+
+.month_name {
+  font-weight: bold;
+}
