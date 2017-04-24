@@ -86,3 +86,10 @@ thead {
 .month_name {
   font-weight: bold;
 }
+
+#BulkCleanUp{
+  max-width: 60%;
+  margin-left: 15%;
+  margin-right: 15%;
+
+}
