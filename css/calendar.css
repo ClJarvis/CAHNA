@@ -13,11 +13,19 @@ thead {
     border-bottom: 1px solid #400000;
   }
 
-.calendar a {
+.calendar a , .welcome a {
   background-color: transparent;
   text-decoration: underline;
   font-weight: bold;
 }
+
+a:active, a:hover {
+  color: #EF642C;
+  background-color: white;
+  font-size: 1.1em;
+}
+
+
 
 .Recycle {
 
