@@ -156,3 +156,8 @@ blockquote {
   color: grey;
   text-decoration: line-through;
 }
+
+.NewsLtr a, .NewsLtr a:visited, .NewsLtr a:active, .NewsLtr a:hover {
+  color: #EF642C;
+  font-weight: bold;
+}
