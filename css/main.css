@@ -151,3 +151,8 @@ blockquote {
   font-size: 20px;
   color: #400000;
 }
+
+.NoNews {
+  color: grey;
+  text-decoration: line-through;
+}
