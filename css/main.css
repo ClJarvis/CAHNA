@@ -161,3 +161,11 @@ blockquote {
   color: #EF642C;
   font-weight: bold;
 }
+
+.NewsLtr h3 {
+  text-align: center;
+}
+
+td {
+  vertical-align: top;
+}
