@@ -8,7 +8,7 @@
 
 
 .navbar-custom, .navbar-fixed-top, .active, ul li a:active, a:hover {
-  font-size: .75em;
+  font-size: 1em;
   border-color: #EF642C;
   background-color: white;
   color: #EF642C;
