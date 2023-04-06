@@ -30,12 +30,15 @@ body {
 
 h2, h4 {
   color: #400000;  /*#EF642C */
-  text-align: center;;
+  text-align: center;
 }
 
 h3 {
   color: #400000;
   text-align: left;
+}
+#welcome h3 {
+  text-align: center;
 }
 
 p {
